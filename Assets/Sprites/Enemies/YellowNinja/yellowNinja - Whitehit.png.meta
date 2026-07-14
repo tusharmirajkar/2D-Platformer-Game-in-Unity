@@ -1,19 +1,7 @@
 fileFormatVersion: 2
 guid: c9397c01a78fa974cac321f9d3f2ca54
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 7152120239178504318
-    second: yellowNinja - Whitehit_0
-  - first:
-      213: -1526922997693794127
-    second: yellowNinja - Whitehit_1
-  - first:
-      213: 1465851759772110302
-    second: yellowNinja - Whitehit_2
-  - first:
-      213: 4208144355251229844
-    second: yellowNinja - Whitehit_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,20 +100,20 @@ TextureImporter:
       name: yellowNinja - Whitehit_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 31
-        width: 25
-        height: 37
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e78dd17c67f614360800000000000000
-      internalID: 7152120239178504318
+      spriteID: 6c8d1a79ed7cb59448ae6215a5aeb9ee
+      internalID: -2028205730
       vertices: []
       indices: 
       edges: []
@@ -134,20 +122,20 @@ TextureImporter:
       name: yellowNinja - Whitehit_1
       rect:
         serializedVersion: 2
-        x: 178
-        y: 31
-        width: 25
-        height: 37
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b83613af974fcae0800000000000000
-      internalID: -1526922997693794127
+      spriteID: b94d7e5f57696d54fbd7ad20d7982174
+      internalID: -1198110716
       vertices: []
       indices: 
       edges: []
@@ -156,20 +144,20 @@ TextureImporter:
       name: yellowNinja - Whitehit_2
       rect:
         serializedVersion: 2
-        x: 305
-        y: 31
-        width: 25
-        height: 37
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: edd099ab860c75410800000000000000
-      internalID: 1465851759772110302
+      spriteID: 1bbb2801364a353429abb2e706e47855
+      internalID: 685411940
       vertices: []
       indices: 
       edges: []
@@ -178,20 +166,20 @@ TextureImporter:
       name: yellowNinja - Whitehit_3
       rect:
         serializedVersion: 2
-        x: 431
-        y: 31
-        width: 27
-        height: 37
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4949052def4566a30800000000000000
-      internalID: 4208144355251229844
+      spriteID: 746fa65cd25a88546b9b21e29e581cf8
+      internalID: -1769763711
       vertices: []
       indices: 
       edges: []
@@ -200,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eb978b65dcf84a9469ff4ad0c48453ae
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +198,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      yellowNinja - Whitehit_0: 7152120239178504318
-      yellowNinja - Whitehit_1: -1526922997693794127
-      yellowNinja - Whitehit_2: 1465851759772110302
-      yellowNinja - Whitehit_3: 4208144355251229844
+      yellowNinja - Whitehit_0: -2028205730
+      yellowNinja - Whitehit_1: -1198110716
+      yellowNinja - Whitehit_2: 685411940
+      yellowNinja - Whitehit_3: -1769763711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

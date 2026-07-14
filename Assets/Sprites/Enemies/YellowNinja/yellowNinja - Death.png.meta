@@ -1,94 +1,7 @@
 fileFormatVersion: 2
 guid: 04e4c14c01c1d9e4bb161dc8768b9a21
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -6212838494299309301
-    second: yellowNinja - Death_0
-  - first:
-      213: 807614261999525968
-    second: yellowNinja - Death_1
-  - first:
-      213: 5138166960660968154
-    second: yellowNinja - Death_2
-  - first:
-      213: 7804122915256926337
-    second: yellowNinja - Death_3
-  - first:
-      213: -6926261800393936539
-    second: yellowNinja - Death_4
-  - first:
-      213: -4118166077888923846
-    second: yellowNinja - Death_5
-  - first:
-      213: 8357354178667993316
-    second: yellowNinja - Death_6
-  - first:
-      213: 2209300320406958419
-    second: yellowNinja - Death_7
-  - first:
-      213: 7962706505400897930
-    second: yellowNinja - Death_8
-  - first:
-      213: 1251973404325365152
-    second: yellowNinja - Death_9
-  - first:
-      213: -4221874074663592195
-    second: yellowNinja - Death_10
-  - first:
-      213: 4697944178388943755
-    second: yellowNinja - Death_11
-  - first:
-      213: -5924083163500727583
-    second: yellowNinja - Death_12
-  - first:
-      213: 7367151152328585919
-    second: yellowNinja - Death_13
-  - first:
-      213: -7242444543435872516
-    second: yellowNinja - Death_14
-  - first:
-      213: 1912560377592533495
-    second: yellowNinja - Death_15
-  - first:
-      213: 8926255207237987223
-    second: yellowNinja - Death_16
-  - first:
-      213: 6489770194073530605
-    second: yellowNinja - Death_17
-  - first:
-      213: -3261077983232019918
-    second: yellowNinja - Death_18
-  - first:
-      213: -1455671263376591111
-    second: yellowNinja - Death_19
-  - first:
-      213: 6621141952371366938
-    second: yellowNinja - Death_20
-  - first:
-      213: 443622397676035642
-    second: yellowNinja - Death_21
-  - first:
-      213: 9130912959285363125
-    second: yellowNinja - Death_22
-  - first:
-      213: 8606009864389648963
-    second: yellowNinja - Death_23
-  - first:
-      213: -4860442397849737675
-    second: yellowNinja - Death_24
-  - first:
-      213: -6108900302099569368
-    second: yellowNinja - Death_25
-  - first:
-      213: 6612272931034885129
-    second: yellowNinja - Death_26
-  - first:
-      213: 4811715053784766606
-    second: yellowNinja - Death_27
-  - first:
-      213: -2275447528572790814
-    second: yellowNinja - Death_28
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -187,20 +100,20 @@ TextureImporter:
       name: yellowNinja - Death_0
       rect:
         serializedVersion: 2
-        x: 47
-        y: 31
-        width: 27
-        height: 37
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b0bba647e4097c9a0800000000000000
-      internalID: -6212838494299309301
+      spriteID: e752a7b8b7350204a8390ad8365f2c9e
+      internalID: 169767732
       vertices: []
       indices: 
       edges: []
@@ -209,20 +122,20 @@ TextureImporter:
       name: yellowNinja - Death_1
       rect:
         serializedVersion: 2
-        x: 177
-        y: 31
-        width: 23
-        height: 36
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 050650274e8353b00800000000000000
-      internalID: 807614261999525968
+      spriteID: 4a35b4493fc00e8439b3d3aa2ef7fe2a
+      internalID: 1353757354
       vertices: []
       indices: 
       edges: []
@@ -231,20 +144,20 @@ TextureImporter:
       name: yellowNinja - Death_2
       rect:
         serializedVersion: 2
-        x: 292
-        y: 31
-        width: 36
-        height: 29
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ad278d6a0af6e4740800000000000000
-      internalID: 5138166960660968154
+      spriteID: 22d2a3b8de23c4643b7c4b6628652e14
+      internalID: 1501505786
       vertices: []
       indices: 
       edges: []
@@ -253,20 +166,20 @@ TextureImporter:
       name: yellowNinja - Death_3
       rect:
         serializedVersion: 2
-        x: 409
-        y: 31
-        width: 55
-        height: 34
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 18000638170dd4c60800000000000000
-      internalID: 7804122915256926337
+      spriteID: befd33182d195394c9fff16b7499a157
+      internalID: -1579181306
       vertices: []
       indices: 
       edges: []
@@ -275,20 +188,20 @@ TextureImporter:
       name: yellowNinja - Death_4
       rect:
         serializedVersion: 2
-        x: 536
-        y: 31
-        width: 61
-        height: 45
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5617926e699f0ef90800000000000000
-      internalID: -6926261800393936539
+      spriteID: 6c9b29c673ca2d4459e409ce947f5cac
+      internalID: 782502265
       vertices: []
       indices: 
       edges: []
@@ -297,20 +210,20 @@ TextureImporter:
       name: yellowNinja - Death_5
       rect:
         serializedVersion: 2
-        x: 700
-        y: 42
-        width: 27
-        height: 35
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a37fd5965c559d6c0800000000000000
-      internalID: -4118166077888923846
+      spriteID: 784d2042688c526469734610d9d4d8f8
+      internalID: 106032510
       vertices: []
       indices: 
       edges: []
@@ -319,20 +232,20 @@ TextureImporter:
       name: yellowNinja - Death_6
       rect:
         serializedVersion: 2
-        x: 831
-        y: 43
-        width: 29
-        height: 32
+        x: 768
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4e8d1a9a8594bf370800000000000000
-      internalID: 8357354178667993316
+      spriteID: 7912db4d74d3dcc4ab4e173b6360032c
+      internalID: -687408584
       vertices: []
       indices: 
       edges: []
@@ -341,20 +254,20 @@ TextureImporter:
       name: yellowNinja - Death_7
       rect:
         serializedVersion: 2
-        x: 966
-        y: 50
-        width: 28
-        height: 23
+        x: 896
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3517300afe209ae10800000000000000
-      internalID: 2209300320406958419
+      spriteID: a06aad93add791e4492d777270454d40
+      internalID: 447327227
       vertices: []
       indices: 
       edges: []
@@ -363,20 +276,20 @@ TextureImporter:
       name: yellowNinja - Death_8
       rect:
         serializedVersion: 2
-        x: 1115
-        y: 34
-        width: 14
-        height: 34
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a81dc11e067318e60800000000000000
-      internalID: 7962706505400897930
+      spriteID: b07fff5a814399f4395efa12ca56294c
+      internalID: 1397467508
       vertices: []
       indices: 
       edges: []
@@ -385,20 +298,20 @@ TextureImporter:
       name: yellowNinja - Death_9
       rect:
         serializedVersion: 2
-        x: 1241
-        y: 31
-        width: 26
-        height: 25
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0a5cc019d27ef5110800000000000000
-      internalID: 1251973404325365152
+      spriteID: 17d2b24b9bf9a8f48af64073fea74c34
+      internalID: 1302530435
       vertices: []
       indices: 
       edges: []
@@ -407,20 +320,20 @@ TextureImporter:
       name: yellowNinja - Death_10
       rect:
         serializedVersion: 2
-        x: 389
-        y: 31
-        width: 21
-        height: 16
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dfede35c5e3e865c0800000000000000
-      internalID: -4221874074663592195
+      spriteID: b311934325a4a3242985076335ced6bc
+      internalID: 718804044
       vertices: []
       indices: 
       edges: []
@@ -429,20 +342,20 @@ TextureImporter:
       name: yellowNinja - Death_11
       rect:
         serializedVersion: 2
-        x: 517
-        y: 34
-        width: 7
-        height: 8
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b83cc77e653723140800000000000000
-      internalID: 4697944178388943755
+      spriteID: 5a0754c49d527d84f9fb9f6539b07491
+      internalID: 1297523336
       vertices: []
       indices: 
       edges: []
@@ -451,20 +364,20 @@ TextureImporter:
       name: yellowNinja - Death_12
       rect:
         serializedVersion: 2
-        x: 529
-        y: 34
-        width: 8
-        height: 10
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1e2baabffbd69cda0800000000000000
-      internalID: -5924083163500727583
+      spriteID: 26e90f5255d6bcf498697a73fbf933be
+      internalID: 779149405
       vertices: []
       indices: 
       edges: []
@@ -473,350 +386,20 @@ TextureImporter:
       name: yellowNinja - Death_13
       rect:
         serializedVersion: 2
-        x: 647
-        y: 35
-        width: 6
-        height: 6
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fb2b721b0f06d3660800000000000000
-      internalID: 7367151152328585919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_14
-      rect:
-        serializedVersion: 2
-        x: 656
-        y: 34
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf6e9035f0bad7b90800000000000000
-      internalID: -7242444543435872516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_15
-      rect:
-        serializedVersion: 2
-        x: 663
-        y: 31
-        width: 37
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f1d3edb787ca8a10800000000000000
-      internalID: 1912560377592533495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_16
-      rect:
-        serializedVersion: 2
-        x: 775
-        y: 31
-        width: 52
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79ba6e151dd60eb70800000000000000
-      internalID: 8926255207237987223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_17
-      rect:
-        serializedVersion: 2
-        x: 901
-        y: 31
-        width: 54
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de0bba37b9b401a50800000000000000
-      internalID: 6489770194073530605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_18
-      rect:
-        serializedVersion: 2
-        x: 1029
-        y: 31
-        width: 54
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 232bb982ad25eb2d0800000000000000
-      internalID: -3261077983232019918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_19
-      rect:
-        serializedVersion: 2
-        x: 1174
-        y: 31
-        width: 37
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f6b1bcc2ba6ccbe0800000000000000
-      internalID: -1455671263376591111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_20
-      rect:
-        serializedVersion: 2
-        x: 1302
-        y: 31
-        width: 37
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1c188e768503eb50800000000000000
-      internalID: 6621141952371366938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_21
-      rect:
-        serializedVersion: 2
-        x: 1369
-        y: 38
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3e13e36830182600800000000000000
-      internalID: 443622397676035642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_22
-      rect:
-        serializedVersion: 2
-        x: 1371
-        y: 31
-        width: 25
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b1073575f487be70800000000000000
-      internalID: 9130912959285363125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_23
-      rect:
-        serializedVersion: 2
-        x: 1430
-        y: 31
-        width: 37
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 342e3740060be6770800000000000000
-      internalID: 8606009864389648963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_24
-      rect:
-        serializedVersion: 2
-        x: 1496
-        y: 31
-        width: 29
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5362be0146d3c8cb0800000000000000
-      internalID: -4860442397849737675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_25
-      rect:
-        serializedVersion: 2
-        x: 1558
-        y: 31
-        width: 37
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8252415aa83d83ba0800000000000000
-      internalID: -6108900302099569368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_26
-      rect:
-        serializedVersion: 2
-        x: 1624
-        y: 31
-        width: 29
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90ce34c823383cb50800000000000000
-      internalID: 6612272931034885129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_27
-      rect:
-        serializedVersion: 2
-        x: 1686
-        y: 31
-        width: 37
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e889d3d0955a6c240800000000000000
-      internalID: 4811715053784766606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellowNinja - Death_28
-      rect:
-        serializedVersion: 2
-        x: 1752
-        y: 31
-        width: 23
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e7d062578cfb60e0800000000000000
-      internalID: -2275447528572790814
+      spriteID: f0e6568ade81f094f8fc7ca081693b24
+      internalID: 767709469
       vertices: []
       indices: 
       edges: []
@@ -825,7 +408,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5d52e26ec1b9ea549b167612b72f2795
     internalID: 0
     vertices: []
     indices: 
@@ -835,35 +418,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      yellowNinja - Death_0: -6212838494299309301
-      yellowNinja - Death_1: 807614261999525968
-      yellowNinja - Death_10: -4221874074663592195
-      yellowNinja - Death_11: 4697944178388943755
-      yellowNinja - Death_12: -5924083163500727583
-      yellowNinja - Death_13: 7367151152328585919
-      yellowNinja - Death_14: -7242444543435872516
-      yellowNinja - Death_15: 1912560377592533495
-      yellowNinja - Death_16: 8926255207237987223
-      yellowNinja - Death_17: 6489770194073530605
-      yellowNinja - Death_18: -3261077983232019918
-      yellowNinja - Death_19: -1455671263376591111
-      yellowNinja - Death_2: 5138166960660968154
-      yellowNinja - Death_20: 6621141952371366938
-      yellowNinja - Death_21: 443622397676035642
-      yellowNinja - Death_22: 9130912959285363125
-      yellowNinja - Death_23: 8606009864389648963
-      yellowNinja - Death_24: -4860442397849737675
-      yellowNinja - Death_25: -6108900302099569368
-      yellowNinja - Death_26: 6612272931034885129
-      yellowNinja - Death_27: 4811715053784766606
-      yellowNinja - Death_28: -2275447528572790814
-      yellowNinja - Death_3: 7804122915256926337
-      yellowNinja - Death_4: -6926261800393936539
-      yellowNinja - Death_5: -4118166077888923846
-      yellowNinja - Death_6: 8357354178667993316
-      yellowNinja - Death_7: 2209300320406958419
-      yellowNinja - Death_8: 7962706505400897930
-      yellowNinja - Death_9: 1251973404325365152
+      yellowNinja - Death_0: 169767732
+      yellowNinja - Death_1: 1353757354
+      yellowNinja - Death_10: 718804044
+      yellowNinja - Death_11: 1297523336
+      yellowNinja - Death_12: 779149405
+      yellowNinja - Death_13: 767709469
+      yellowNinja - Death_2: 1501505786
+      yellowNinja - Death_3: -1579181306
+      yellowNinja - Death_4: 782502265
+      yellowNinja - Death_5: 106032510
+      yellowNinja - Death_6: -687408584
+      yellowNinja - Death_7: 447327227
+      yellowNinja - Death_8: 1397467508
+      yellowNinja - Death_9: 1302530435
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
