@@ -236,3 +236,10 @@ MonoBehaviour:
   WhatisGround:
     serializedVersion: 2
     m_Bits: 128
+  attackRange: 7
+  WhatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 256
+  player: {fileID: 6128617880117113505, guid: c9a401f8edcf5a447aeff8b71bec4c67, type: 3}
+  chaseSpeed: 2.5
+  retriveDistance: 3

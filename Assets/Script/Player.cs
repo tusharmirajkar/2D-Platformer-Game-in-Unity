@@ -50,7 +50,7 @@ public class Player : MonoBehaviour
     }
     private void FixedUpdate()
     {
-    transform.position += new Vector3 (movement * moveSpeed, 0f, 0f) * Time.deltaTime;
+    rb.linearVelocity = new Vector2(movement * moveSpeed, rb.linearVelocity.y);
     }
     public void FireArrow()
     {
