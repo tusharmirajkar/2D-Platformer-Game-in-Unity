@@ -230,16 +230,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18056f20d49c03f43a647c4d2cb9fd01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 3
   walkSpeed: 1.5
   groundCheck: {fileID: 4304697488636823257}
   distance: 0.3
   WhatisGround:
     serializedVersion: 2
     m_Bits: 128
-  attackRange: 7
+  attackRange: 6
   WhatIsPlayer:
     serializedVersion: 2
     m_Bits: 256
-  player: {fileID: 6128617880117113505, guid: c9a401f8edcf5a447aeff8b71bec4c67, type: 3}
+  player: {fileID: 0}
   chaseSpeed: 2.5
   retriveDistance: 3

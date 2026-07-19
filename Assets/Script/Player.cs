@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     public GameObject arrowPrefab;
     public Transform spawnPosition;
     public float arrowSpeed = 20f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
