@@ -93,7 +93,7 @@ public class Enemy : MonoBehaviour
         }
         maxHealth -= damageAmmount;
         animator.SetTrigger("Hit");
-        FindAnyObjectByType<CamShake>().Shake(2f, .12f);
+        CamShake.instance.Shake(2.5f, .15f);
     }
     private void OnDrawGizmosSelected()
     {
@@ -114,12 +114,15 @@ public class Enemy : MonoBehaviour
             TakeDamage(1);
         }
     }
+    public void ShakeCam()
+    {
+        CamShake.instance.Shake(4f, .18f);
+    }
     void Die()
     {
         animator.SetBool("Dead", true);
         rb.gravityScale = 0f;
         boxCollider.enabled = false;
-        FindAnyObjectByType<CamShake>().Shake(2f, .12f);
         Destroy(this.gameObject, 5f);
     }
 }
