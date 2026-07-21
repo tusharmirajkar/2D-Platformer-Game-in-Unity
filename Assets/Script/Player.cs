@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+    public static Player instance;
+    public float maxHealth = 5f;
     private Animator animator;
     public Rigidbody2D rb;
     public float JumpHight =  7f;
@@ -26,11 +28,23 @@ public class Player : MonoBehaviour
         IsGround = true;
         facingRight = true;
         animator = this.gameObject.GetComponent<Animator>();
+        if(instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (maxHealth <= 0)
+        {
+            Die();
+        }
         movement = Input.GetAxis("Horizontal");
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -92,11 +106,30 @@ public class Player : MonoBehaviour
         animator.SetBool("Jump", true);
         }
     }
+    public void TakeDamage(int damageAmmount)
+    {
+        if (maxHealth <= 0)
+        {
+            return;
+        }
+        else
+        {
+            maxHealth -= damageAmmount;
+            animator.SetTrigger("hit");
+            CamShake.instance.Shake(2.5f, .15f);
+        }
+    }
     void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Ground")
         {
             animator.SetBool("Jump", false);
         }
+    }
+    void Die()
+    {
+        Debug.Log(this.gameObject.name + " is Dead");
+        CamShake.instance.Shake(4f, .18f);
+        Destroy(this.gameObject);
     }
 }

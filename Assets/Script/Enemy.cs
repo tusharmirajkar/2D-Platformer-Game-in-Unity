@@ -17,6 +17,11 @@ public class Enemy : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
+    public GameObject floatingTextPrefab;
+    public Transform textSpwanPoint;
+    public Transform attackPoint;
+    public float attackRadius = 1f;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,6 +33,10 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        if (player == null)
+        {
+            
+        }
         if (maxHealth <= 0)
         {
             Die();
@@ -85,6 +94,17 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+    public void Attack()
+    {
+        Collider2D collinfo = Physics2D.OverlapCircle(attackPoint.position, attackRadius, WhatIsPlayer);
+        if (collinfo)
+        {
+             if(collinfo.gameObject.GetComponent<Player>() != null)
+             {
+                Player.instance.TakeDamage(1);
+             }
+        }
+    }
     public void TakeDamage(int damageAmmount)
     {
         if (maxHealth <= 0)
@@ -92,8 +112,9 @@ public class Enemy : MonoBehaviour
             return;
         }
         maxHealth -= damageAmmount;
-        animator.SetTrigger("Hit");
+        animator.SetTrigger("hit");
         CamShake.instance.Shake(2.5f, .15f);
+        Instantiate(floatingTextPrefab, textSpwanPoint.position, Quaternion.identity);
     }
     private void OnDrawGizmosSelected()
     {

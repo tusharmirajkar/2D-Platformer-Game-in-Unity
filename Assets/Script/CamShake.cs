@@ -37,7 +37,7 @@ public class CamShake : MonoBehaviour
     public void Shake(float intensity, float duration)
     {
         shakeTime = duration;
-        CinemachineBasicMultiChannelPerlin Perlin =cam.GetComponent<CinemachineBasicMultiChannelPerlin>();
+        CinemachineBasicMultiChannelPerlin Perlin = cam.GetComponent<CinemachineBasicMultiChannelPerlin>();
         Perlin.AmplitudeGain = intensity;
     }
 }
