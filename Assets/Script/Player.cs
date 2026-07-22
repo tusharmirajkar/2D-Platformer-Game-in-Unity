@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     public static Player instance;
-    public float maxHealth = 5f;
+    public int maxHealth ;
     private Animator animator;
     public Rigidbody2D rb;
     public float JumpHight =  7f;
@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     public GameObject arrowPrefab;
     public Transform spawnPosition;
     public float arrowSpeed = 20f;
+    private int currentDiamond;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -36,6 +37,8 @@ public class Player : MonoBehaviour
         {
             Destroy(this);
         }
+        currentDiamond = 0;
+        maxHealth = 5;
     }
 
     // Update is called once per frame
@@ -115,7 +118,7 @@ public class Player : MonoBehaviour
         else
         {
             maxHealth -= damageAmmount;
-            animator.SetTrigger("hit");
+            animator.SetTrigger("Hit");
             CamShake.instance.Shake(2.5f, .15f);
         }
     }
@@ -126,10 +129,24 @@ public class Player : MonoBehaviour
             animator.SetBool("Jump", false);
         }
     }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Diamond")
+        {
+            currentDiamond++;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "Heart")
+        {
+            maxHealth++;
+            Destroy(collision.gameObject);
+        }
+    }
     void Die()
     {
         Debug.Log(this.gameObject.name + " is Dead");
-        CamShake.instance.Shake(4f, .18f);
-        Destroy(this.gameObject);
+        CamShake.instance.Shake(4f, .1f);
+        animator.SetBool("Dead", true);
+        Destroy(this.gameObject, 2f);
     }
 }

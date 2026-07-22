@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Arrow
   - Enemy
+  - Diamond
+  - Heart
   layers:
   - Default
   - TransparentFX
