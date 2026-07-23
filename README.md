@@ -10,12 +10,21 @@ A 2D platformer game project created as a learning exercise through Unity tutori
 - **Animation System** – Character animations for running, jumping, and attacking
 - **Tile-Based Levels** – Levels built using Unity's tilemap system
 - **Physics-Based Movement** – Rigidbody2D for realistic character and projectile behavior
+- **Lua Scripting** – Extended gameplay logic with Lua integration
+
+## 📊 Tech Stack
+
+- **Language:** C# (30.7%) + Lua (69.3%)
+- **Engine:** Unity (2D game engine with Universal Render Pipeline)
+- **Physics:** Physics2D for collision detection and movement
+- **Animation:** Animator system for character states
+- **Input:** New Input System for responsive controls
 
 ## 📁 Project Structure
 
 ```
 Assets/
-├── Script/                 # C# game logic
+├── Script/                 # C# game logic and Lua bindings
 │   ├── Player.cs          # Player movement, jumping, and arrow firing
 │   └── Arrow.cs           # Arrow projectile behavior
 ├── Scenes/                # Game scenes and prefabs
@@ -37,6 +46,7 @@ ProjectSettings/           # Project-wide Unity settings
 ### Prerequisites
 - Unity (version compatible with URP — check your ProjectSettings)
 - A code editor (VS Code, Visual Studio, or Rider recommended)
+- Lua support/runtime (if using Lua scripts)
 
 ### Running the Game
 
@@ -71,6 +81,11 @@ ProjectSettings/           # Project-wide Unity settings
 - Background layers for visual depth
 - Collision layers define walkable surfaces and obstacles
 
+### Lua Integration
+- Extended gameplay logic written in Lua (69.3% of codebase)
+- C# scripts provide core functionality and bindings
+- Lua handles configuration, balancing, and dynamic game behavior
+
 ## 🔧 Key Components
 
 ### Player Settings
@@ -93,6 +108,7 @@ ProjectSettings/           # Project-wide Unity settings
 - [ ] Sound design and music
 - [ ] UI for menus and game over screens
 - [ ] Platform hazards and traps
+- [ ] Enhanced Lua scripting for level design
 
 ## 📚 Learning Resources
 
@@ -101,6 +117,7 @@ This project was built following Unity tutorials covering:
 - Physics-based platformer mechanics
 - Prefab instantiation and projectile systems
 - Input handling with the new Input System
+- Lua scripting integration with Unity
 
 ## 📄 License
 
@@ -109,4 +126,5 @@ This project is open for learning and educational purposes.
 ---
 
 **Created by:** tusharmirajkar  
-**Last Updated:** July 2026
+**Last Updated:** July 2026  
+**Language Composition:** Lua (69.3%) | C# (30.7%)
