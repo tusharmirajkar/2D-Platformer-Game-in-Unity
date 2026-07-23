@@ -99,17 +99,6 @@ ProjectSettings/           # Project-wide Unity settings
 - Collider2D for collision detection
 - Layer-based ground checking for reliable jumping
 
-## 📝 Future Enhancements
-
-- [ ] Enemy AI and combat mechanics
-- [ ] Multiple levels with progression
-- [ ] Score/health system
-- [ ] Visual effects for arrow impact
-- [ ] Sound design and music
-- [ ] UI for menus and game over screens
-- [ ] Platform hazards and traps
-- [ ] Enhanced Lua scripting for level design
-
 ## 📚 Learning Resources
 
 This project was built following Unity tutorials covering:
